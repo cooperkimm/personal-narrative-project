@@ -38,6 +38,11 @@ Record a short video of your story to display here on your README. You can do th
 ## Story Description
 
 Write a description of the story that your animation showcases. Give addional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcase.
+
+My animation showcases Super Bowl 48, a matchup between the number one ranked offense(Broncos) and the number one ranked defense(Seahawks). The animations shows the main highlights from each quarter, including images, scores, and analysis. Different filters are applied to the images to provide a unique appearance. The two dimensional arrays that we utilized included the score, highlights, and analysis of each quarter. The rows included the different quarters and the columns represented the images, score, and analysis.
 ## Image Filter Analysis
 
 Choose at least 2 filters uses in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.# personal-narrative-project
+
+One image filter that I created myself was the keepColor filter. This filter traversed through the two dimensional array and created variables that were set to the different colors. We then used conditional statements to find the max color. Once we found the max color, we used more conditonal statements and set the other colors(not the max color) to 0. This filter allowed us to display the maxColor. 
+Another filter that I used was the adjustContrast filter. This filter also traversed through the two dimensional array and multiplied the currentPixel by a value to create a different contrast for the image. We used the value 5 because it created a bright and visible image.  
